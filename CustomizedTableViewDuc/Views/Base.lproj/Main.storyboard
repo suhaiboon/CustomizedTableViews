@@ -12,6 +12,7 @@
         <!--Speakers-->
         <scene sceneID="bUU-T1-nVD">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0ry-wc-sxA" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="Z0D-pA-VMh" customClass="SpeakersTableViewController" customModule="CustomizedTableViewDuc" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="xj3-WB-CJb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -75,16 +76,15 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Speakers" id="etj-Ga-bVO"/>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0ry-wc-sxA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="747.82608695652175" y="142.63392857142856"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="1dD-BI-VPD">
             <objects>
-                <navigationController id="SXu-m8-n9X" sceneMemberID="viewController">
+                <navigationController navigationBarHidden="YES" id="SXu-m8-n9X" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="phG-p5-gY4">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
