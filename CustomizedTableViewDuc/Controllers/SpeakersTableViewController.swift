@@ -29,7 +29,6 @@ class SpeakersTableViewController: UITableViewController
     //MARK: UITableViewDelegate
     
     //Remove the gray color when cell is selected
-
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
     }

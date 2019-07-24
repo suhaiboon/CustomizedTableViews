@@ -21,7 +21,6 @@ class SpeakerTableViewCell: UITableViewCell
     }
     
     func updateUI() {
-        
         profilePic.image = UIImage(named: speaker.profilePic)
         SpeakerName.text = speaker.speakerName
     }
